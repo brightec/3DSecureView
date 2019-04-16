@@ -1,3 +1,8 @@
+<p align="center">
+  <img width="100" src="https://github.com/brightec/.github/blob/master/brighteclogo2018.svg">
+</p>
+<br/>
+
 # ThreeDSecureView
 
 ThreeDSecureView is primarily a WKWebView that handles the 3DSecure payment process by sending a POST request to the provided card issuer URL with the MD and PaReq parameters set. The WKWebView then intercepts the POST response from the card issuer, extracts the MD and PaRes values and passes them back to your app.
@@ -43,3 +48,12 @@ Handle the callbacks:
 ### Advanced
 
 If you don't want to use the provided UIViewController, you can just instantiate ThreeDSecureView directly, add it to your view hierarchy and call start3DSecure() yourself.
+
+## License
+
+See [license](LICENSE)
+
+## Author
+
+This repo is maintained by the [Brightec](https://www.brightec.co.uk/) team
+
